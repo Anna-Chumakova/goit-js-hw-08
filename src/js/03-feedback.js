@@ -25,6 +25,7 @@ function onFormSend(evt) {
     evt.currentTarget.reset();
    
     localStorage.removeItem(STORAGE_KEY);   
+    formData = { email: "", message: "" };
 }
 
 function populateInput() {
